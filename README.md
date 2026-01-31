@@ -5,12 +5,13 @@
 </p>
 
 ### 💫 About Me
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- ⚡ Fun fact: ...
+- 🔭 현재 다양한 웹 기술을 활용한 풀스택 개발 프로젝트를 진행하고 있습니다.
+- 🌱 Java, Kotlin, PHP 등 백엔드 생태계와 Vue, React 같은 프론트엔드 프레임워크를 깊이 있게 학습 중입니다.
+- 👯 오픈소스 프로젝트와 기술 공유를 위한 협업에 언제나 열려 있습니다.
+- 💬 Spring Boot 아키텍처나 웹 성능 최적화에 대해 이야기하는 것을 좋아합니다.
+- 📫 연락처: [skymanla@naver.com](mailto:skymanla@naver.com) (또는 GitHub Issue)
+- ⚡ 즐거운 코딩과 지속적인 성장을 추구합니다!
+- 🏠 [간단 이력 보기](https://trigger.kr/about)
 
 ### 🛠 Tech Stack
 <p align="left">
@@ -27,7 +28,7 @@
   <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white">
 </p>
 
-### 📊 WORKKING HOURS
+### 📊 WAKATIME TIMELINE(Last 7 days)
 <!--START_SECTION:waka-->
 ![Profile Views](http://img.shields.io/badge/Profile%20Views-0-blue?style=flat)
 
