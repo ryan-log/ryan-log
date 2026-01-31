@@ -29,4 +29,85 @@
 
 ### 📊 WORKKING HOURS
 <!--START_SECTION:waka-->
+![Profile Views](http://img.shields.io/badge/Profile%20Views-0-blue?style=flat)
+
+**🐱 My GitHub Data** 
+
+> 📦 1.7 MB Used in GitHub's Storage 
+ > 
+> 🏆 27 Contributions in the Year 2026
+ > 
+> 🚫 Not Opted to Hire
+ > 
+> 📜 27 Public Repositories 
+ > 
+> 🔑 31 Private Repositories 
+ > 
+**I'm an Early 🐤** 
+
+```text
+🌞 Morning                94 commits          ████████░░░░░░░░░░░░░░░░░   30.52 % 
+🌆 Daytime                156 commits         █████████████░░░░░░░░░░░░   50.65 % 
+🌃 Evening                49 commits          ████░░░░░░░░░░░░░░░░░░░░░   15.91 % 
+🌙 Night                  9 commits           █░░░░░░░░░░░░░░░░░░░░░░░░   02.92 % 
+```
+📅 **I'm Most Productive on Wednesday** 
+
+```text
+Monday                   56 commits          █████░░░░░░░░░░░░░░░░░░░░   18.18 % 
+Tuesday                  57 commits          █████░░░░░░░░░░░░░░░░░░░░   18.51 % 
+Wednesday                60 commits          █████░░░░░░░░░░░░░░░░░░░░   19.48 % 
+Thursday                 53 commits          ████░░░░░░░░░░░░░░░░░░░░░   17.21 % 
+Friday                   43 commits          ███░░░░░░░░░░░░░░░░░░░░░░   13.96 % 
+Saturday                 21 commits          ██░░░░░░░░░░░░░░░░░░░░░░░   06.82 % 
+Sunday                   18 commits          █░░░░░░░░░░░░░░░░░░░░░░░░   05.84 % 
+```
+
+
+📊 **This Week I Spent My Time On** 
+
+```text
+🕑︎ Time Zone: Asia/Seoul
+
+💬 Programming Languages: 
+Python                   7 hrs 37 mins       ██████████████░░░░░░░░░░░   54.93 % 
+SQL                      3 hrs 11 mins       ██████░░░░░░░░░░░░░░░░░░░   22.94 % 
+YAML                     1 hr 1 min          ██░░░░░░░░░░░░░░░░░░░░░░░   07.36 % 
+Other                    30 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   03.65 % 
+Vue.js                   17 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   02.13 % 
+
+🔥 Editors: 
+IntelliJ IDEA            10 hrs 4 mins       ██████████████████░░░░░░░   72.54 % 
+DataGrip                 2 hrs 28 mins       ████░░░░░░░░░░░░░░░░░░░░░   17.78 % 
+Antigravity              1 hr 20 mins        ██░░░░░░░░░░░░░░░░░░░░░░░   09.69 % 
+
+🐱‍💻 Projects: 
+sparkone-app-api         4 hrs 48 mins       █████████░░░░░░░░░░░░░░░░   34.58 % 
+sparkone-crew-api        3 hrs 18 mins       ██████░░░░░░░░░░░░░░░░░░░   23.76 % 
+sparkplus                2 hrs 28 mins       ████░░░░░░░░░░░░░░░░░░░░░   17.78 % 
+sparkone-member-api      53 mins             ██░░░░░░░░░░░░░░░░░░░░░░░   06.44 % 
+trigger-blog             48 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   05.83 % 
+
+💻 Operating System: 
+Mac                      13 hrs 53 mins      █████████████████████████   100.00 % 
+```
+
+**I Mostly Code in Python** 
+
+```text
+Python                   14 repos            ██████░░░░░░░░░░░░░░░░░░░   25.45 % 
+PHP                      12 repos            █████░░░░░░░░░░░░░░░░░░░░   21.82 % 
+Kotlin                   7 repos             ███░░░░░░░░░░░░░░░░░░░░░░   12.73 % 
+TypeScript               6 repos             ███░░░░░░░░░░░░░░░░░░░░░░   10.91 % 
+PLpgSQL                  2 repos             █░░░░░░░░░░░░░░░░░░░░░░░░   03.64 % 
+```
+
+
+
+**Timeline**
+
+![Lines of Code chart](https://raw.githubusercontent.com/skymanla/skymanla/main/assets/bar_graph.png)
+
+
+ Last Updated on 31/01/2026 03:24:33 UTC
 <!--END_SECTION:waka-->
