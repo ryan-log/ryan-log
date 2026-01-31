@@ -27,13 +27,6 @@
   <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white">
 </p>
 
-### 📊 GitHub Stats
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=skymanla&show_icons=true&theme=radical" alt="skymanla's GitHub stats" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=skymanla&layout=compact&theme=radical" alt="Top Langs" />
-</p>
-
-### 🏆 GitHub Trophies
-<p align="center">
-  <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=skymanla&theme=radical" alt="skymanla's trophies" /></a>
-</p>
+### 📊 WORKKING HOURS
+<!--START_SECTION:waka-->
+<!--END_SECTION:waka-->
