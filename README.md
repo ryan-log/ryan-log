@@ -37,21 +37,21 @@
 
 ### 📊 GitHub Stats & Streak
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=ryan-log&show_icons=true&theme=tokyonight&hide_border=true" alt="ryan-log's GitHub Stats" />
+  <img src="https://github-stats-extended.vercel.app/api?username=ryan-log&show_icons=true&theme=tokyonight&hide_border=true" alt="ryan-log's GitHub Stats" />
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=ryan-log&theme=tokyonight&hide_border=true" alt="ryan-log's GitHub Streak" />
 </p>
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=ryan-log&layout=compact&theme=tokyonight&hide_border=true" alt="ryan-log's Top Languages" />
+  <img src="https://github-stats-extended.vercel.app/api/top-langs/?username=ryan-log&layout=compact&theme=tokyonight&hide_border=true" alt="ryan-log's Top Languages" />
 </p>
 
 <br/>
 
 ### ⏱ WakaTime Weekly Metrics
 <!--START_SECTION:waka-->
-![Code Time](http://img.shields.io/badge/Code%20Time-5%2C176%20hrs%2052%20mins-blue?style=flat)
+![Code Time](https://img.shields.io/badge/Code%20Time-5%2C176%20hrs%2052%20mins-blue?style=flat)
 
-![Profile Views](http://img.shields.io/badge/Profile%20Views-0-blue?style=flat)
+![Profile Views](https://img.shields.io/badge/Profile%20Views-0-blue?style=flat)
 
 **🐱 My GitHub Data** 
 
