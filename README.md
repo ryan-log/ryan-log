@@ -21,7 +21,7 @@
 - 🌱 **Tech Stack:** 백엔드 생태계(`Java`, `Kotlin`, `PHP`)와 프론트엔드 프레임워크(`Vue.js`, `React`)를 주력으로 삼고 있습니다.
 - 👯 **Collaboration:** 기술적 공유와 오픈소스 프로젝트 기여, 그리고 적극적인 협업을 즐깁니다.
 - 💬 **Interests:** Spring Boot의 정밀한 구조 설계 및 웹 애플리케이션의 성능 고도화 토론을 환영합니다.
-- 📫 **Contact:** [skymanla@naver.com](mailto:skymanla@naver.com) 또는 GitHub Issue를 남겨주세요.
+- 📫 **Contact:** [ryan-dev@kakao.com](mailto:ryan-dev@kakao.com) 또는 GitHub Issue를 남겨주세요.
 - 🏠 **Resume:** [간단 이력 및 소개 보기](https://trigger.kr/about)
 
 <br/>
