@@ -47,90 +47,18 @@
 
 <br/>
 
-### ⏱ WakaTime Weekly Metrics
+### ⏱ Weekly Coding Activity
+
+<sub>최근 7일간의 WakaTime 언어 사용 기록 · 매주 월요일 업데이트</sub>
+
 <!--START_SECTION:waka-->
-![Code Time](http://img.shields.io/badge/Code%20Time-5%2C207%20hrs%2021%20mins-blue?style=flat)
-
-![Profile Views](http://img.shields.io/badge/Profile%20Views-13-blue?style=flat)
-
-**🐱 My GitHub Data** 
-
-> 📦 1.7 MB Used in GitHub's Storage 
- > 
-> 🏆 213 Contributions in the Year 2026
- > 
-> 🚫 Not Opted to Hire
- > 
-> 📜 28 Public Repositories 
- > 
-> 🔑 40 Private Repositories 
- > 
-**I'm an Early 🐤** 
-
 ```text
-🌞 Morning                107 commits         ███████░░░░░░░░░░░░░░░░░░   27.37 % 
-🌆 Daytime                212 commits         ██████████████░░░░░░░░░░░   54.22 % 
-🌃 Evening                59 commits          ████░░░░░░░░░░░░░░░░░░░░░   15.09 % 
-🌙 Night                  13 commits          █░░░░░░░░░░░░░░░░░░░░░░░░   03.32 % 
+Total Time: 17 hrs 49 mins
+
+Markdown   8 hrs 4 mins    ███████████░░░░░░░░░░░░░░   45.31 %
+SQL        3 hrs 57 mins   ██████░░░░░░░░░░░░░░░░░░░   22.17 %
+Python     2 hrs 34 mins   ████░░░░░░░░░░░░░░░░░░░░░   14.46 %
+JSON       1 hr 4 mins     █░░░░░░░░░░░░░░░░░░░░░░░░   05.99 %
+Vue        37 mins         █░░░░░░░░░░░░░░░░░░░░░░░░   03.48 %
 ```
-📅 **I'm Most Productive on Tuesday** 
-
-```text
-Monday                   61 commits          ████░░░░░░░░░░░░░░░░░░░░░   15.60 % 
-Tuesday                  96 commits          ██████░░░░░░░░░░░░░░░░░░░   24.55 % 
-Wednesday                80 commits          █████░░░░░░░░░░░░░░░░░░░░   20.46 % 
-Thursday                 59 commits          ████░░░░░░░░░░░░░░░░░░░░░   15.09 % 
-Friday                   46 commits          ███░░░░░░░░░░░░░░░░░░░░░░   11.76 % 
-Saturday                 30 commits          ██░░░░░░░░░░░░░░░░░░░░░░░   07.67 % 
-Sunday                   19 commits          █░░░░░░░░░░░░░░░░░░░░░░░░   04.86 % 
-```
-
-
-📊 **This Week I Spent My Time On** 
-
-```text
-🕑︎ Time Zone: Asia/Seoul
-
-💬 Programming Languages: 
-Markdown                 8 hrs 4 mins        ███████████░░░░░░░░░░░░░░   45.31 % 
-SQL                      3 hrs 57 mins       ██████░░░░░░░░░░░░░░░░░░░   22.17 % 
-Python                   2 hrs 34 mins       ████░░░░░░░░░░░░░░░░░░░░░   14.46 % 
-JSON                     1 hr 4 mins         █░░░░░░░░░░░░░░░░░░░░░░░░   05.99 % 
-Vue                      37 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   03.48 % 
-
-🔥 Editors: 
-Claude Code              7 hrs 33 mins       ███████████░░░░░░░░░░░░░░   42.37 % 
-Antigravity IDE          4 hrs 58 mins       ███████░░░░░░░░░░░░░░░░░░   27.96 % 
-DataGrip                 3 hrs 6 mins        ████░░░░░░░░░░░░░░░░░░░░░   17.48 % 
-IntelliJ IDEA            2 hrs 10 mins       ███░░░░░░░░░░░░░░░░░░░░░░   12.19 % 
-
-🐱‍💻 Projects: 
-sparkone-private         5 hrs 59 mins       ████████░░░░░░░░░░░░░░░░░   33.63 % 
-sparkone-orchestration   3 hrs 17 mins       █████░░░░░░░░░░░░░░░░░░░░   18.49 % 
-sparkplus                2 hrs 47 mins       ████░░░░░░░░░░░░░░░░░░░░░   15.62 % 
-sparkone-crew-api        1 hr 47 mins        ███░░░░░░░░░░░░░░░░░░░░░░   10.04 % 
-sparkone-app-api         1 hr 44 mins        ██░░░░░░░░░░░░░░░░░░░░░░░   09.76 % 
-
-💻 Operating System: 
-Mac                      17 hrs 49 mins      █████████████████████████   100.00 % 
-```
-
-**I Mostly Code in Python** 
-
-```text
-Python                   16 repos            ███████░░░░░░░░░░░░░░░░░░   26.23 % 
-Kotlin                   9 repos             ████░░░░░░░░░░░░░░░░░░░░░   14.75 % 
-JavaScript               5 repos             ██░░░░░░░░░░░░░░░░░░░░░░░   08.20 % 
-HTML                     3 repos             █░░░░░░░░░░░░░░░░░░░░░░░░   04.92 % 
-MDX                      1 repo              ░░░░░░░░░░░░░░░░░░░░░░░░░   01.64 % 
-```
-
-
-
-**Timeline**
-
-![Lines of Code chart](https://raw.githubusercontent.com/ryan-log/ryan-log/main/assets/bar_graph.png)
-
-
- Last Updated on 15/07/2026 19:44:22 UTC
 <!--END_SECTION:waka-->
