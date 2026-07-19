@@ -52,13 +52,15 @@
 <sub>최근 7일간의 WakaTime 언어 사용 기록 · 매주 월요일 업데이트</sub>
 
 <!--START_SECTION:waka-->
-```text
-Total Time: 17 hrs 49 mins
 
-Markdown   8 hrs 4 mins    ███████████░░░░░░░░░░░░░░   45.31 %
-SQL        3 hrs 57 mins   ██████░░░░░░░░░░░░░░░░░░░   22.17 %
-Python     2 hrs 34 mins   ████░░░░░░░░░░░░░░░░░░░░░   14.46 %
-JSON       1 hr 4 mins     █░░░░░░░░░░░░░░░░░░░░░░░░   05.99 %
-Vue        37 mins         █░░░░░░░░░░░░░░░░░░░░░░░░   03.48 %
+```txt
+Total Time: 20 hrs 37 mins
+
+Markdown      10 hrs 53 mins  ████████████▓░░░░░░░░░░░░   50.35 %
+SQL           2 hrs 29 mins   ███░░░░░░░░░░░░░░░░░░░░░░   11.54 %
+Python        1 hr 52 mins    ██░░░░░░░░░░░░░░░░░░░░░░░   08.65 %
+TypeScript    1 hr 9 mins     █▒░░░░░░░░░░░░░░░░░░░░░░░   05.33 %
+Other         1 hr            █▒░░░░░░░░░░░░░░░░░░░░░░░   04.68 %
 ```
+
 <!--END_SECTION:waka-->
