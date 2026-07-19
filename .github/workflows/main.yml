@@ -8,6 +8,11 @@ on:
 
 permissions:
   contents: write
+  pull-requests: write
+
+env:
+  DEFAULT_BRANCH: ${{ github.event.repository.default_branch }}
+  UPDATE_BRANCH: wakatime-stats-update
 
 concurrency:
   group: waka-readme
@@ -18,17 +23,82 @@ jobs:
     name: Update weekly coding activity
     runs-on: ubuntu-latest
     timeout-minutes: 10
+
     steps:
+      - name: Prepare update branch
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          BASE_SHA="$(gh api \
+            "repos/$GITHUB_REPOSITORY/git/ref/heads/$DEFAULT_BRANCH" \
+            --jq '.object.sha')"
+
+          if gh api \
+            "repos/$GITHUB_REPOSITORY/git/ref/heads/$UPDATE_BRANCH" \
+            > /dev/null 2>&1
+          then
+            gh api \
+              --method PATCH \
+              "repos/$GITHUB_REPOSITORY/git/refs/heads/$UPDATE_BRANCH" \
+              -f sha="$BASE_SHA" \
+              -F force=true \
+              > /dev/null
+          else
+            gh api \
+              --method POST \
+              "repos/$GITHUB_REPOSITORY/git/refs" \
+              -f ref="refs/heads/$UPDATE_BRANCH" \
+              -f sha="$BASE_SHA" \
+              > /dev/null
+          fi
+
       - name: Generate compact WakaTime stats
         uses: athul/waka-readme@8539bedb8277066fc9fe1b47d1f9b108eb866494 # v0.3.1
         with:
           WAKATIME_API_KEY: ${{ secrets.WAKATIME_APIKEY }}
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GH_TOKEN: ${{ github.token }}
+
+          TARGET_BRANCH: ${{ env.UPDATE_BRANCH }}
+          TARGET_PATH: README.md
+
           TIME_RANGE: last_7_days
           LANG_COUNT: 5
           SHOW_TIME: true
           SHOW_TOTAL: true
           SHOW_TITLE: false
+
           COMMIT_MESSAGE: "chore: update weekly WakaTime stats"
           COMMITTER_NAME: github-actions[bot]
           COMMITTER_EMAIL: 41898282+github-actions[bot]@users.noreply.github.com
+
+      - name: Create or update pull request
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          COMPARE_STATUS="$(gh api \
+            "repos/$GITHUB_REPOSITORY/compare/$DEFAULT_BRANCH...$UPDATE_BRANCH" \
+            --jq '.status')"
+
+          if [ "$COMPARE_STATUS" = "identical" ]; then
+            echo "WakaTime 통계 변경사항이 없습니다."
+            exit 0
+          fi
+
+          OPEN_PR="$(gh pr list \
+            --repo "$GITHUB_REPOSITORY" \
+            --base "$DEFAULT_BRANCH" \
+            --head "$UPDATE_BRANCH" \
+            --state open \
+            --json number \
+            --jq '.[0].number')"
+
+          if [ -z "$OPEN_PR" ]; then
+            gh pr create \
+              --repo "$GITHUB_REPOSITORY" \
+              --base "$DEFAULT_BRANCH" \
+              --head "$UPDATE_BRANCH" \
+              --title "chore: update weekly WakaTime stats" \
+              --body "Automated weekly WakaTime statistics update."
+          else
+            echo "기존 PR #$OPEN_PR가 새 통계로 업데이트되었습니다."
+          fi
